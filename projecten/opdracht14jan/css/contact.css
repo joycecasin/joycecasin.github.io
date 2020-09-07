@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    display: grid;
+    width: 20%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 2.5rem)150px;
+    grid-template-areas: "voornaam txtvoornaam" "familienaam txtfamilienaam" "telefoon txttelefoon" "mail txtmail" "boodschap txtboodschap" "knop knop";
+    margin-top: 3%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+#voornaam {
+    grid-area: voornaam;
+}
+
+#txtvoornaam {
+    grid-area: txtvoornaam;
+    height: 35%;
+}
+
+#familienaam {
+    grid-area: familienaam;
+}
+
+#txtfamilienaam {
+    grid-area: txtfamilienaam;
+    height: 35%;
+}
+
+#telefoon {
+    grid-area: telefoon;
+}
+
+#txttelefoon {
+    grid-area: txttelefoon;
+    height: 35%;
+}
+
+#mail {
+    grid-area: mail;
+}
+
+#txtmail {
+    grid-area: txtmail;
+    height: 35%;
+}
+
+#boodschap {
+    grid-area: boodschap;
+}
+
+#txtboodschap {
+    grid-area: txtboodschap;
+}
+
+#knop {
+    margin-top: 5%;
+    grid-area: knop;
+}
+@media only screen and (max-width: 200px) {
+    form{
+        width: 100%;
+    }
+    #maps{
+        width: 100%;
+    }
+}

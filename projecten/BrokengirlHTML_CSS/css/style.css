@@ -1,0 +1,58 @@
+/* font-family: 'Playfair Display', serif; (titels)
+font-family: 'Kite One', sans-serif; (subs + tekst)
+font-family: 'Martel', serif; (sub in header)*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: #EFE9D3;
+    color: #E18888;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 5rem;
+    padding: 20px;
+}
+
+h2 {
+    font-family: 'Martel', serif;
+    font-size: 2.5rem;
+    padding: 20px;
+}
+
+h3 {
+    font-family: 'Kite One', sans-serif;
+    font-size: 3rem;
+}
+
+h4 {
+    font-family: 'Martel', serif;
+    font-size: 1.5rem;
+    color: #A49F91;
+    margin-bottom: 80px;
+}
+
+p {
+    font-family: 'Kite One', sans-serif;
+    font-size: 1.5rem;
+    color: #A49F91;
+    margin-bottom: 100px;
+}

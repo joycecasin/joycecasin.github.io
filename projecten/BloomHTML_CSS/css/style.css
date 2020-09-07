@@ -1,0 +1,82 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Libre Baskerville', serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #6C665F;
+}
+
+
+/* Om in een map terug te keren gebruik je .. */
+
+header {
+    background: url(../img/header.png);
+    padding-top: 150px;
+}
+
+main {
+    width: 70%;
+    margin: 30px auto;
+    text-align: center;
+    color: #CDBBA4;
+    font-family: 'Roboto', sans-serif;
+}
+
+.start p {
+    padding-bottom: 0;
+    font-size: 1.5rem;
+}
+
+
+/* Alles zal worden toegepast op zowel H1 als H2 */
+
+h1,
+h2 {
+    color: #F7E0C2;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h1 {
+    font-size: 5rem;
+    padding: 50px;
+    color: #F7E0C2;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h2 {
+    font-size: 2rem;
+    padding: 30px;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+h4,h5{
+    padding: 5px;
+}
+
+
+/* Om een lettertype zelf te maken. Onder font-family geef je zelf de naam die jij wil, src is de link waar je dat lettertype kunt terug vinden.*/
+
+@font-face {
+    font-family: ornament;
+    src: url(../fonts/Nymphette.ttf);
+}
+
+.ornament {
+    font-family: 'ornament';
+    font-size: 12rem;
+    color: #958694;
+}
+a,a:hover,a::after,a:active{
+    color: #CDBBA4;
+}
+
+footer {
+    background: url(../img/footer.png);
+    padding-bottom: 85px;
+}

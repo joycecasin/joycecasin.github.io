@@ -1,0 +1,115 @@
+/* font-family: 'Josefin Slab', serif;
+font-family: 'Roboto', sans-serif; 
+font-family: 'Raleway', sans-serif;*/
+
+@-webkit-keyframes swirl-in-fwd {
+    0% {
+        -webkit-transform: rotate(-540deg) scale(0);
+        transform: rotate(-540deg) scale(0);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(1);
+        transform: rotate(0) scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes swirl-in-fwd {
+    0% {
+        -webkit-transform: rotate(-540deg) scale(0);
+        transform: rotate(-540deg) scale(0);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(1);
+        transform: rotate(0) scale(1);
+        opacity: 1;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header,
+footer {
+    background-image: url(../img/Footer.jpg);
+    height: 150px;
+}
+
+nav {
+    text-align: center;
+}
+
+header ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 80px;
+}
+
+header ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    padding: 30px 0;
+}
+
+h3 {
+    font-family: 'Josefin Slab', serif;
+    color: #545980;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.mezelf,
+.stad {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.part {
+    width: 90%;
+    padding: 20px 20px;
+}
+
+#Hondjes {
+    width: 200%;
+}
+
+img {
+    max-width: 100%;
+    border: 3px solid black;
+    -webkit-animation: swirl-in-fwd 0.6s ease-out both;
+    animation: swirl-in-fwd 0.6s ease-out both;
+}
+
+.tekst {
+    padding: 30px 30px;
+}
+
+#Lijn {
+    background-image: url(../img/Footer.jpg);
+    height: 100px;
+    text-align: center;
+}
+
+.Sociale {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 30px;
+}

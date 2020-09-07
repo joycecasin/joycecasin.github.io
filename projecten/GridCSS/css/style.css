@@ -1,0 +1,104 @@
+.grid {
+    display: grid;
+    grid-template-columns: 10fr 7fr 7fr 3fr 8fr;
+    grid-template-rows: 4fr 2fr 2fr 5fr 2fr 4fr 3fr 4fr 2fr 2fr 2fr 4fr 2fr 5fr 7fr 7fr 5fr;
+    gap: 10px;
+    grid-template-areas: "camera camera gebouw gebouw voeten" "camera camera gebouw gebouw zee" "camera camera rook rook zee" "camera camera rook rook ponton" "camera camera gebergte gebergte gebergte" "gebergte2 strand gebergte gebergte gebergte" "gebergte2 bloemen gebergte gebergte gebergte" "waterlelie zittend gebergte gebergte gebergte" "waterlelie uitzicht gebergte gebergte gebergte" "waterlelie uitzicht hooggras hooggras fabriek" "skilift skilift hooggras hooggras fabriek" "skilift skilift hooggras hooggras stad" "skilift skilift groenten groenten stad" "skilift skilift groenten groenten straat" "witkleedje witkleedje witkleedje opkomendezon opkomendezon" "witkleedje witkleedje witkleedje skateboard skateboard" "witkleedje witkleedje witkleedje stoel stoel";
+}
+
+.camera {
+    grid-area: camera;
+}
+
+.gebouw {
+    grid-area: gebouw;
+}
+
+.voeten {
+    grid-area: voeten;
+}
+
+.zee {
+    grid-area: zee;
+}
+
+.rook {
+    grid-area: rook;
+}
+
+.gebergte {
+    grid-area: gebergte;
+}
+
+.ponton {
+    grid-area: ponton;
+}
+
+.gebergte2 {
+    grid-area: gebergte2;
+}
+
+.strand {
+    grid-area: strand;
+}
+
+.bloemen {
+    grid-area: bloemen;
+}
+
+.zittend {
+    grid-area: zittend;
+}
+
+.waterlelie {
+    grid-area: waterlelie;
+}
+
+.uitzicht {
+    grid-area: uitzicht;
+}
+
+.skilift {
+    grid-area: skilift;
+}
+
+.hooggras {
+    grid-area: hooggras;
+}
+
+.fabriek {
+    grid-area: fabriek;
+}
+
+.groenten {
+    grid-area: groenten;
+}
+
+.stad {
+    grid-area: stad;
+}
+
+.straat {
+    grid-area: straat;
+}
+
+.witkleedje {
+    grid-area: witkleedje;
+}
+
+.opkomendezon {
+    grid-area: opkomendezon;
+}
+
+.skateboard {
+    grid-area: skateboard;
+}
+
+.stoel {
+    grid-area: stoel;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}

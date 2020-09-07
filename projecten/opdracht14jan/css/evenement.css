@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mercutor {
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.oostendeanker {
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.content {
+    width: 40%;
+    padding: 5%;
+    text-align: left;
+}
+
+.gallery {
+    width: 40%;
+    padding: 5%;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6 {
+    width: 90%;
+    padding: 0 5%;
+    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.div1 {
+    background-image: url(../img/mercutor/9173374566430.jpg);
+}
+
+.div2 {
+    background-image: url(../img/mercutor/mercator_slide7.jpg);
+}
+
+.div3 {
+    background-image: url(../img/mercutor/romance2.jpg);
+}
+
+.div4 {
+    background-image: url(../img/oostendeanker/0001-12.jpg);
+}
+
+.div5 {
+    background-image: url(../img/oostendeanker/18700554_1382191428530092_6990954375417951483_o.jpg);
+}
+
+.div6 {
+    background-image: url(../img/oostendeanker/18673168_1381470271935541_3430474573158084322_o.jpg);
+}
+
+h3,
+h4 {
+    font-family: 'Abel', sans-serif;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+h4 {
+    background-color: #abd1d1;
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    font-size: 1rem;
+    padding: 5px;
+}
+
+footer {
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #abd1d1;
+}

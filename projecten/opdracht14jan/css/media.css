@@ -1,0 +1,32 @@
+         @media only screen and (max-width: 800px) {
+             .containerHPC {
+                 width: 100%;
+             }
+             .containerGE {
+                 width: 100%;
+             }
+             .part,
+             .part2 {
+                 flex-direction: column;
+             }
+             .partL {
+                 flex-direction: column-reverse;
+             }
+             .textR {
+                 width: auto;
+                 margin-left: 15%;
+             }
+             .textL {
+                 width: auto;
+                 margin-right: 15%;
+             }
+             .oost {
+                 flex-direction: column;
+             }
+             .part2f {
+                 width: 90%;
+             }
+             .part2t {
+                 width: 90%;
+             }
+         }

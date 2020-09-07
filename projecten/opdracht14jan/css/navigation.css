@@ -1,0 +1,52 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .logo {
+            padding: 0 10px;
+        }
+        
+        nav {
+            display: flex;
+            /* justify-content: space-between; */
+            flex-direction: row;
+            justify-content: space-between;
+            position: fixed;
+            /* Make it stick, even on scroll */
+            overflow: auto;
+            /* Enable scrolling if the sidenav has too much content */
+            background-color: rgba(90, 161, 175, .75);
+            font-size: 1rem;
+            font-family: 'Raleway', sans-serif;
+            width: 100%;
+        }
+        
+        .menu {
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+        }
+        
+        nav li {
+            list-style: none;
+            width: fauto;
+            padding: 10px;
+            display: flex;
+            justify-items: end;
+            /* background-color: red; */
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        nav-items {
+            height: 200px;
+        }
+        
+        .nav-items a:hover {
+            color: #ABD1D1;
+            font-weight: 900;
+        }
